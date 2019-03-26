@@ -27,6 +27,7 @@ in the build/out directory
 update to vs2017 jiangjj
 fixbug: BOOL SaveHighlights(HWND hwndHexView)
 remove example code
+add vs2017 x64 release exe
 
 
 
