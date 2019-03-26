@@ -24,6 +24,11 @@ The resulting binaries will be located in the /bin directory.
 When using the build.bat commandline tool, packaged zipfiles will be located
 in the build/out directory
 
+update to vs2017 jiangjj
+fixbug: BOOL SaveHighlights(HWND hwndHexView)
+remove example code
+
+
 
 
 

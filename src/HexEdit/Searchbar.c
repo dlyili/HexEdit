@@ -271,7 +271,7 @@ HWND CreateSearchBar(HWND hwndParent)
 	SendMessage(hwndTB3, TB_SETBUTTONSIZE, 0, MAKELPARAM(32, 42));
 	//AddButton(hwndTB3, IDM_FILE_OPEN, 8,   TBSTYLE_BUTTON|TBSTYLE_DROPDOWN , TEXT("Ascii"));
 	AddButton(hwndTB3, IDM_FILE_NEW, 5,  TBSTYLE_BUTTON, TEXT("Prev"));	
-	AddButton(hwndTB3, IDM_FILE_SAVE, 2,   TBSTYLE_BUTTON , TEXT("Next"));// »"));
+	AddButton(hwndTB3, IDM_FILE_SAVE, 2,   TBSTYLE_BUTTON , TEXT("Next"));// ?));
 	ResizeToolbar(hwndTB3);
 
 	ToolPanel_AddItem(hwndPanel, hwndTB3, 0);
@@ -321,7 +321,7 @@ HWND CreateSearchBar(HWND hwndParent)
 	SendMessage(hwndTB1, TB_SETEXTENDEDSTYLE, 0, TBSTYLE_EX_MIXEDBUTTONS|TBSTYLE_EX_DRAWDDARROWS);
 
 	GetWindowWidth(hwndTB1);
-	AddButton(hwndTB1, -0, 3, TBSTYLE_BUTTON, TEXT("Goto »"));
+	AddButton(hwndTB1, -0, 3, TBSTYLE_BUTTON, TEXT("Goto "));
 	GetWindowWidth(hwndTB1);
 	ResizeToolbar(hwndTB1);
 	GetWindowWidth(hwndTB1);

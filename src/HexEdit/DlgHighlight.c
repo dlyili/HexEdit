@@ -455,8 +455,8 @@ BOOL LoadHighlights(HWND hwndHexView)
 
 BOOL SaveHighlights(HWND hwndHexView)
 {
-	TCHAR szBookPath[MAX_PATH];
-	TCHAR szFilePath[MAX_PATH];
+	TCHAR szBookPath[MAX_PATH] = { 0 };	//edit by jiangjj
+	TCHAR szFilePath[MAX_PATH] = { 0 };
 	BOOKMARK bm;
 	HBOOKMARK hbm;
 	HCONFIG config, filedata, bookmarks;
